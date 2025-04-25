@@ -1,0 +1,4 @@
+[submodule "clammit"]
+	path = clammit
+	url = https://github.com/ifad/clammit
+	branch = master

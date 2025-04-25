@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 2.30.0
+- name: clamav
+  repository: https://wiremind.github.io/wiremind-helm-charts
+  version: 3.5.0
+digest: sha256:96e58af55aa796791cde136914c8d7e5fd7271d845f3d25251ff652daec7a085
+generated: "2025-04-25T22:50:14.903827209+05:30"
