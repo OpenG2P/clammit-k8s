@@ -285,7 +285,4 @@ clammitCfg: |-
   clamd-url = ${CLAMMIT_CLAMD_URL}
   #application-url = ${CLAMMIT_APPLICATION_URL}
 
-clamav:
-  enabled: true
-
-clamavInstallationName: '{{ include "clamav.fullname" .Subcharts.clamav }}'
+clamavInstallationName: 'clamav'
