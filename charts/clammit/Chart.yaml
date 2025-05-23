@@ -7,13 +7,9 @@ dependencies:
 - name: common
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 2.x.x
-- name: clamav
-  repository: https://wiremind.github.io/wiremind-helm-charts
-  version: 3.5.x
-  condition: clamav.enabled
 keywords:
-  - ClamAV
   - Clammit
+  - ClamAV
   - OpenG2P
 annotations:
   catalog.cattle.io/display-name: "Clammit"
